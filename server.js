@@ -6,7 +6,7 @@ import "dotenv/config";
 
 import orderRoutes from './routes/orderRoutes.js';
 import schedulerRoutes from './routes/schedulerRoutes.js';
-import { errorHandler } from './middleware/errorhandler.js';
+import {errorHandler } from './middleware/errorHandler.js'
 import { initScheduler } from './utils/cron.js'; 
 
 const app = express();
