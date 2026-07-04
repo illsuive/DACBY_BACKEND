@@ -14,7 +14,7 @@ const app = express();
 app.use(bodyParser.json());
 
 app.use(cors({
-  origin: 'http://localhost:5173',
+  origin: 'https://astounding-quokka-a1fe75.netlify.app',
   credentials: true,
 }))
 
